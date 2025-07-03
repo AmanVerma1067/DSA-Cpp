@@ -1,27 +1,28 @@
-// ✅Program 03: Search in array
+// ✅Homework 02: Maximum in an array
 #include<iostream>
+#include<limits.h>
 using namespace std;
 
-bool searchArray(int arr[], int index, int N, int target){
+void findMax(int arr[], int index, int N, int &maxi){
     // Base Case
     if(index >= N){
-        return false;
+        return;
     }
-    if(arr[index] == target){
-        return true;
-    }    
+
+    // Processing
+    maxi = max(arr[index], mini);  
 
     // Recursive Relation/Call
-    bool aageKaAns = searchArray(arr,index + 1, N, target);
-    return aageKaAns;
+    findMax(arr,index + 1, N, mini);
 }
 
 int main(){
-    int arr[500] = {10,20,30,40,50};
+    int arr[500] = {20,30,10,5,11};
     int size = 5;
     int index = 0;
-    int target = 50;
-
-    cout<<searchArray(arr,index,size,target)<<endl;
+    int maxi = INT_MIN;
+    cout<<"Before Calling findMin then maxi: "<< maxi<<endl;
+    findMax(arr,index,size,maxi);
+    cout<<"After Calling findMin then maxi: "<< maxi<<endl;
     return 0;
 }

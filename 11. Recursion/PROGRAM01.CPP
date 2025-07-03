@@ -1,28 +1,25 @@
-// ✅Homework 02: Maximum in an array
+// ✅Program 02: Print array
 #include<iostream>
-#include<limits.h>
 using namespace std;
 
-void findMax(int arr[], int index, int N, int &maxi){
+void printArray(int arr[], int index, int N){
     // Base Case
     if(index >= N){
         return;
     }
 
     // Processing
-    maxi = max(arr[index], mini);  
+    cout<<arr[index]<<" ";
 
     // Recursive Relation/Call
-    findMax(arr,index + 1, N, mini);
+    printArray(arr,index + 1, N);
 }
 
 int main(){
-    int arr[500] = {20,30,10,5,11};
+    int arr[500] = {10,20,30,40,50};
     int size = 5;
     int index = 0;
-    int maxi = INT_MIN;
-    cout<<"Before Calling findMin then maxi: "<< maxi<<endl;
-    findMax(arr,index,size,maxi);
-    cout<<"After Calling findMin then maxi: "<< maxi<<endl;
+
+    printArray(arr,index,size);
     return 0;
 }

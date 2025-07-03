@@ -1,0 +1,5 @@
+V-Twin Motor,500000,KTM Duke,2022,Standard Bike
+V-Twin Motor,100000,Bajaj Pulsar,2021,Standard Bike
+349 cc,200000,Royal Enfield Classic 350,2022,Standard Bike
+998 cc,1500000,Kawasaki Ninja,2023,Sports Bike
+Twin turbo,70000,Harley Davidson,2019,SportsBike

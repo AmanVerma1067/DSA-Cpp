@@ -1,0 +1,8 @@
+4 cylinder,2500000,Toyota Innova Crysta,2023,MUV,7
+Rotary,1500000,Honda City,2023,Sedan,5
+IMT,1500000,Kia Seltos,2023,SUV,5
+4 cylinder,2000000,Mahindra XUV 500,2023,SUV,6
+Ivtech,2000000,Honda Civic,2022,Sedan,5
+V12,20000000,Lamborghini Aventador,2019,Supercar,2
+V12,100000000,Pagani Huayra,2018,Supercar,2
+W16,8000000000,Bugatti Chiron,2020,Supercar,2
